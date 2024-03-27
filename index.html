@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <title>Elbrus Super Form</title>
+</head>
+
+<body>
+<div class="container">
+    <h1 class="mainHeading">Elbrus Super Form</h1>
+    <main>
+        <div class="form">
+            <form>
+                <label id="label" for="name">Name</label>
+                <input class="name" id="name" type="text">
+
+                <label id="label" for="secondName">Second name</label>
+                <input class="secondName" id="secondName" type="text">
+
+                <label id="label" for="dateOfBirth">Date of birth</label>
+                <input class="dateOfBirth" id="dateOfBirth" type="text">
+
+                <label id="label" for="phoneNumber">Phone number</label>
+                <input class="phoneNumber" id="phoneNumber" type="text">
+
+                <label id="label" for="email">Email</label>
+                <input class="email" id="email" type="email">
+
+                <button class="btn add">Отправить</button>
+            </form>
+            <button class="btn clear">Очистить localStorage</button>
+        </div>
+
+        <div class="mainUsers">
+            <h3>Users:</h3>
+            <div class="users"></div>
+        </div>
+    </main>
+
+</div>
+</body>
+
+</html>
